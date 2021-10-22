@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+}
+
+.topset{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-image: url(../img/download.jpg);
+	/*background-repeat: repeat-x;*/
+}
+
+.topset h1,.p1{
+	color: white;
+	text-shadow: -5px 0 5px black;
+}
+
+.ts{
+	margin-left: 255px;
+	position: absolute;
+}
+
+.leftctn{
+	display: flex;
+	flex-direction: column;
+}
+
+.sup{
+	width: 250px;
+	height: 30px;
+	display: block;
+	color: white;
+	text-align: left;
+	background-color: green;
+	border-style: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.lin{
+	width: 250px;
+	height: 30px;
+	display: block;
+	color: white;
+	text-align: left;
+	background-color: green;
+	border-style: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.sbox{
+	width: 250px;
+	height: auto;
+	text-align: center;
+	background-color: green;
+	margin-top: 10px;
+
+}
+
+.sbox input,button{
+	margin-top: 5px;
+}
+
+.gt,.new,.ct{
+	width: 250px;
+	height: 30px;
+	display: block;
+	color: white;
+	text-align: left;
+	background-color: green;
+	border-style: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: 10px;
+}
+
+.rightctn{
+	position: absolute;
+	display: flex;
+	top: 230px;
+	left: 250px;
+}
+
+.b1,.b2,.b3,.b4{
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	background-color: orange;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-left: 20px;
+
+}
+
+.rightctn img{
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.rightctn p{
+	text-align: justify;
+	margin-left: 10px;
+	color: white;
+	text-transform: capitalize;
+}
+
+.ft{
+	width: 100%;
+	height: 100px;
+	background-image: url(../img/footer.jpg);
+	background-repeat: repeat-x;
+	margin-top: 20px;
+
+}
+
+.ft div{
+	width: 1050px;
+	position: absolute;
+	text-transform: capitalize;
+	margin-left: 280px; 
+	margin-top: -50px;
+}

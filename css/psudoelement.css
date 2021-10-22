@@ -1,0 +1,28 @@
+/*ပထမဆုံးစာကျောင်းကိုသာattributeပေးချင်ရင် psudo element ဖြစ်တဲ့ ::first-line ကိုသုံးရပါမယ်*/
+/*.paragraph1::first-line{
+	color: red;
+	font-size: 20px;
+}*/
+
+/*စာပုဒ်ထိပ်မှာရေးချင်တဲ့စာကိုhtmlမှာမထည့်ပဲCSSပဲထည့်မယ်ဆို ::before ဆိုတဲ့elementကိုထည့်ပေးရပါတယ်
+ထည့်ထားသောစာအားcopyယူလို့မရပါ
+အစမှာထည့်လို့ရသလိုအဆုံးမှာလည်းထည့်လို့ရပါတယ် ::afterသုံးပါတယ်*/
+/*.paragraph1::before{
+	content: "ABC"; 
+}*/
+/*.paragraph1::after{
+	content: "the end"
+}*/
+
+/*ပထမဆုံးစာလုံးတလုံးကိုဆွဲထုတ်ပီးattributeပေးချင်ရင် ::first-letterနဲ့ရေးရပါတယ်*/
+/*.paragraph1::first-letter{
+	color: red;
+	font-size: 50px;
+}*/
+
+/*pageမှာselect text လုပ်တဲ့အခါအရောင်ပြောင်းချင်ရင် ::selectionကိုသုံးပါ*/
+.paragraph1::selection{
+	background-color: orange;
+	color: white;
+}
+

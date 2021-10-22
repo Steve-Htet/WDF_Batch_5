@@ -1,0 +1,107 @@
+.bdstyle1{
+	border-style: solid;
+}
+
+.bdstyle2{
+	border-style: dotted;
+}
+
+.bdstyle3{
+	border-style: double;
+}
+
+.bdstyle4{
+	border-style: dashed;
+}
+
+.bdstyle5{
+	border-style: inset;
+}
+
+.bdstyle6{
+	border-style: outset;
+}
+
+.bddesign{
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+	color:white;
+/*boder radius ကအနားလေးတွေကိုလုံးဝန်းအောင်လုပ်တာပါ*/
+	/*border-radius: 10px;*/
+	/*border-radius: 50%;*/
+				/*left top right bottom right top left bottom*/
+
+	/*border-radius: 20px 50px;*/
+
+	/*border-radius: 10px 50px 100px 300px;*/
+
+	border-top-left-radius: 30px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 70px;
+	border-bottom-left-radius: 100px;
+}
+/*listထဲမှာရှိတဲ့ပုံစံမျိုးစုံဖန်တီးခြင်း*/
+/*ul{
+	list-style-type: square;
+	list-style-type: circle;
+	list-style-type: none;
+	list-style: none
+}*/
+
+li{
+	/*list-style-type: square;
+	list-style-type: circle;
+	list-style-type: none;
+	list-style: none */
+	/*listထဲမှာအစဉ်လိုက်ဂဏန်းတွေအရှေ့သုညထည့်ခြင်း*/
+	list-style-type: decimal-leading-zero;/*(01,02 liststyle)*/
+	    /* size  style color*/
+	/*border: 1px dashed red;*/
+	/*Other way below*/
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+
+	/*list-style-position: inside;*/
+	/*list-style-position: outside;*/
+}
+/*inputထဲရိုက်ထည့်မည့်စာများပုံဖော်ခြင်း*/
+input[type="text"]{
+	width: 300px;
+	color: white;
+	background: green;
+	border-radius: 20px
+}
+
+/*attribute selector*/
+
+input [type="email"]{
+	color: red;
+}
+/*နောက်ခံပုံထည့်၍လိုသလိုပုံစံပျောင်းခြင်း*/
+body{
+	background-image:url('../img/fav/favicon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+	/*background-position: center;*/
+	/*background-position: right;*/
+	/*background-position: left;*/
+	/*background-position: top;*/
+	/*background-position: bottom;*/
+
+
+     /*ပုံကိုနောက်ခံအသေထားခြင်း*/
+	/*background-attachment: fixed;*/
+	/*background-attachment: scroll;*/
+
+	/*background-position: right center;*/
+	/*background-position: left center;*/
+	/*background-position: right bottom;*/
+	/*background-position: left bottom;*/
+
+	/*background-position: right top;*/
+	/*background-position: left top;*/
+
+}

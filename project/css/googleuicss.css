@@ -1,0 +1,61 @@
+.menu{
+	margin:10px;
+	margin-top: -5px;
+}
+
+.noti{
+	margin: 10px;
+	margin-top: 1px;
+}
+
+.profile{
+	margin: 10px;
+	margin-top: -5px;
+}
+
+.gmail,.image{
+	/*display: inline-block;*/
+	text-align: right;
+	margin: 5px;
+	line-height: 5px;
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+.topset{
+	text-align: right;
+}
+
+.googlelogo{
+	text-align: center;
+
+}
+
+.searchbox{
+	width: 550px;
+	height: 40px;
+	border-style:inset;
+	border-radius: 30px;
+	border-color: rgba(3,12,0,0.3);
+	/*border-style: inset;*/
+	margin-right: 100px;
+	background: url(../img/voice.jpg);
+	background-position: right;
+	background-size: 40px;
+	background-repeat: no-repeat;
+
+
+}
+
+::placeholder{
+	font-size: 16px;
+	text-align: justify;
+	background: url(../img/search.png);
+	position: left;
+	padding-left:30px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+
+}
+
+
+

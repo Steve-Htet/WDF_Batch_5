@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+
+
+.flwlogo{
+	margin-top: -25px;
+	margin-left: -10px;
+}
+
+.topset{
+	text-align: right;
+	margin-top: -50px;
+}
+
+.home,.shop,.blog,.payment{
+	margin: 50px;
+	color: rgba(133,50,127,1.00);
+
+
+}
+
+.midset{
+	width: 1350px;
+	height: 550px;
+	background-image: url('../img/flw2.jpg'),url('../img/flw.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50% 100%;
+	background-position: left top, right top;
+	/*transform: skew(-10deg);*/
+}
+
+.poem{
+	color: white;
+	font-family: 'Gamja Flower', cursive;
+}

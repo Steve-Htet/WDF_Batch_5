@@ -1,0 +1,97 @@
+/*tag to tag combinator*/
+div span{
+	color: red;
+}
+
+/*tag to multi tags*/
+
+/*div span p{
+	color: red;
+}*/
+
+/*multi tag class*/
+/*div span .name{
+	color: red;
+}*/
+
+/*div span small with same class*/
+/*div span small.name{
+	color: red;
+}*/
+
+/*tag to class*/
+/*div .address{
+	color: red;
+}*/
+
+/*tag to multi class*/
+/*div .name .age{
+	color: red;
+}*/
+
+/*class to class*/
+
+/*.money .currency{
+	color: red;
+}*/
+
+/*class to multi class*/
+/*.bank .money .currency{
+	color: red;
+}*/
+
+/*Class to tag*/
+/*.container b{
+	color: red;
+}*/
+
+/*class to tag*/
+/*.container b span{
+	color: red;
+}*/
+
+/*Same class*/
+
+/*.mobile.us{
+	color: blue;
+}*/
+
+
+/*Class to same class*/
+/*.vehicle .car.jpn{
+	color: yellow;
+}*/
+
+/*.vehicle .car.cn{
+	color: green;
+}*/
+
+/*.vehicle .car.indo{
+	color: red;
+}*/
+
+/*Class to tag by group selector*/
+/*.div1 b,.div1 p{
+	color: red;
+}*/
+
+/*child selector(<)*/
+/*.div3 > i{
+	color: blue;
+}*/
+
+/*sibling selector*/
+/*1.General Sibling Selectors*/
+/*2.Adjacent Sibling selectors*/
+
+/*1.General Sibling Selectors (~)*/
+/*.div4 ~ i{
+	color: red;
+}*/
+
+/*ကပ်လျက်တည်ရှိတဲ့တစ်ခုကိုသာအလုပ်လုပ်ပါမည်ကြားခံတခုခုရှိနေပါကအလုပ်မလုပ်ပါ*/
+/*2.Adjacent Sibling selectors (+)*/
+/*.div7 + b{
+	color: blue;
+}
+*/

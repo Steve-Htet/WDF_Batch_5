@@ -1,0 +1,123 @@
+
+/*googleမှတိုက်ရိုက် @importပုံစံfontယူသုံးခြင်း*/
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+/*Global font intergrate by local folder*/
+/*cssတွင်font fileထဲdownloadဆွဲထည့်၍ခေါ်သုံးခြင်း*/
+/*@font-face{
+	font-family: Stick;
+	src:local('Stick-Regular'),url('../libs/fonts/Stick-Regular.ttf');
+}*/
+
+@font-face{
+	font-family: 'abc';
+	src:local('AkayaKanadaka-Regular'),url('../libs/fonts/AkayaKanadaka-Regular.ttf')
+}
+
+
+
+/*local font intergrate*/
+/*LM (local machine)*/
+/*computerထဲမှာရှိသောfontsများယူသုံးခြင်း*/
+body{
+	/*font-family: Century;*/
+	/*font-family: "Time New Roman";*/
+	/*font-family: 'Stick', sans-serif;*/
+}
+
+.p1{
+	/*font-family: Arial;*/
+	font-family: 'Stick', sans-serif;
+}
+
+.p2{
+	/*font-family: Century;*/
+	font-family: 'abc', sans-serif;
+
+}
+
+.p3{
+	/*font-family: Century,Arial,'Time New Roman';*/
+}
+
+
+/*fontsများပုံစံအမျိုးမျိုးပြောင်းခြင်း*/
+
+.p1{
+	/*text-transform: uppercase;*/
+	/*text-transform: lowercase;*/
+
+	/*text-transform: capitalize;*/
+
+	/*font-variant: small-caps;*/
+
+    /*text indentation*/
+    /*စာပိုဒ်ပုံစံပထမစာကြောင်းအနောက်ဆုတ်ပေးခြင်း*/
+	text-indent: 50px;
+
+	/*font-style: italic;*/
+
+	/*font-weight: bold;*/
+	             /*100 to 900*/
+	font-weight: 900;
+}
+/*textများပုံစံအမျိုးမျိုးမျဉ်းတားခြင်းစသည်ဖြစ်ပျောင်းလဲခြင်း*/
+.a1{
+	text-decoration:none;
+	color: violet;
+}
+
+
+/*pseudoclass*/
+/*စာလုံးစစထားခြင်းပုံးစံအမျိုးမျိုး*/
+.a1:visited{
+	color: green;
+}
+/*စာလုံးပေါ် pointerရောက်သွားချိန်ပျောင်းလဲခြင်း*/
+.a1:hover{
+	color:blue;
+	font-size: 20px;
+}
+
+.menutext{
+	font-family: Arial,Cambria,Century;
+	text-decoration: none;
+	background-color: green;
+	color:white;
+
+	/*padding: 20px;*/
+	        /*top-bottom left-right*/
+	/*padding:10px 30px;*/
+
+	/*padding: 10px 20px 30px 40px;*/
+
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border-radius: 5px;
+}
+
+.menutext:hover{
+	color:gold;
+	background-color: blue;
+	font-size: 20px;
+	border-radius: 50px;
+    /*pointerတင်လိုက်တဲ့အချိန်ပျောင်းလဲသွားမဲ့အချိန်*/
+	transition: 1s;
+}
+
+.imgdesign{
+	width: 80px;
+    height: 80px;
+
+    cursor: pointer;
+}
+
+.imgdesign:hover{
+	width: 100px;
+	height: 100px;
+
+	transition: 1s;
+}
