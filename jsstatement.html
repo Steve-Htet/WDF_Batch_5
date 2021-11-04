@@ -134,8 +134,8 @@
 		}
 
 
-		const username = prompt("Enter Username");
-		const password = prompt("Enter Password");
+		// const username = prompt("Enter Username");
+		// const password = prompt("Enter Password");
 
 		// console.log(username,password);
 
@@ -154,11 +154,70 @@
 
 
 
-		if(username == "aungaung" && password == 456){
-			console.log("Welcome");
-		}else{
-			console.log("Try Again");
+		// if(username == "aungaung" && password == 456){
+		// 	console.log("Welcome");
+		// }else{
+		// 	console.log("Try Again");
+		// }
+
+
+		let daycount = new Date().getDay();
+		//console.log(daycount);
+
+		let today;
+
+		switch(daycount){
+			case 0:
+			today = "Sunday";
+			break;
+			case 1:
+			today = "Monday";
+			break;
+			case 2:
+			today = "tueday";
+			break;
+			case 3:
+			today = "Wednesday";
+			break;
+			case 4:
+			today = "Thursday";
+			break;
+			case 5:
+			today = "Fryday";
+			break;
+			case 6:
+			today = "Saturday";
+			break;
 		}
+
+		document.write(`Today is ${today}`);
+
+
+		let p = 10;
+		let q = 50;
+
+		console.log(q);
+		console.log(p);
+
+		// p = q;
+		// console.log(p);
+
+		// q = p + q;
+		// console.log(q);
+
+		// q -= p;
+		// console.log(q);
+
+		// q *= p;
+		// console.log(q);
+
+		// q /= p;
+		// console.log(q);
+
+		q %= p;
+		console.log(q);
+
+
 
 
 

@@ -13,6 +13,9 @@
 <body>
 
 
+	<small>Copyright &#169;<span id="autoyear"></span>Eleven Media Group Co.ltd</small>
+
+
 
 
 	<script type="text/javascript">
@@ -33,6 +36,56 @@
 
 		let seconds = date.getSeconds();
 		console.log(seconds);
+
+
+
+
+		//1s =1000ms
+		//1 jan 1970 > upnow
+		let gettime = date.getTime();
+		console.log(gettime);
+
+
+		let now = Date.now();
+		console.log(now);
+
+		let getdate = date.getDate();
+		console.log(getdate);
+
+
+		//jan = 0
+		let getmonth = date.getMonth();
+		console.log(getmonth);
+
+		//sun = 0
+		let getday = date.getDay();
+
+
+		console.log(getday);
+
+		let year = date.getFullYear();
+		console.log(year);
+		let utcyear = date.getUTCFullYear();
+		console.log(utcyear);
+
+		document.getElementById('autoyear').textContent = utcyear;
+
+		let bd = new Date("8-10-2013");
+		bd = new Date("8/10/2013");
+		bd = new Date('Aug 10 2013');
+		bd = new Date("8/10/2013 11:35:00");
+		bd = new Date("Aug 10 2013 11:35:00");
+		// console.log(bd);
+
+		bd.setMonth(8);
+		bd.setDate(20);
+		bd.setFullYear(2021);
+		bd.setHours(12);
+		bd.setMinutes(10);
+		bd.setSecond(5);
+		console.log(bd);
+
+
 
 		
 

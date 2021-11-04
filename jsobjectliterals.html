@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Object Literals</title>
+
+</head>
+
+<body>
+
+
+
+	<script type="text/javascript">
+
+
+		let name = "Aung Aung";
+		console.log(name);
+		console.error(name);
+		console.warn(name);
+
+
+		let obj1 = {
+			firstname : "Tin",
+			middlename : "Htut",
+			lastnmae : "Aung"
+			
+			};
+
+			console.log(obj1);
+			console.log(typeof obj1);
+			console.table(obj1);
+
+			console.log(obj1.firstname);
+			console.log(obj1.middlename);
+			console.log(obj1.lastnmae);
+
+			let obj2 = {
+				firstname : "kyaw",
+				lastnmae : "Gyi",
+				age : 52,
+				married : true,
+				email : "kyawgyi@gmail.com",
+				phone : "09123134",
+				address : {
+					street : "Tamwe",
+					city : "Yangon"
+				}
+			};
+
+			console.log(obj2);
+			console.table(obj2);
+			console.log(obj2.age);
+			console.log(obj2.email);
+			console.log(obj2.phone);
+			console.log(obj2.address.street);
+			console.log(obj2.address.city);
+
+			var obj3 = {
+				fullname : "Tin Htut Aung",
+				married : false,
+				age : 25,
+				phone : "09422042242",
+				address :{
+					street : "60st",
+					city : 'Mandalay',
+					nation : {
+						burmese : true,
+						chinese :true
+					},
+					skin : "white"
+				},
+				hobbies: ["sleep","eat","code","music","sport"]
+			};
+			console.log(obj3.fullname);
+			console.log(obj3.address.street);
+			console.log(obj3.address.nation.burmese);
+			console.log(obj3.address.skin);
+
+			console.log(obj3.hobbies[3]);
+
+		
+
+
+
+
+	</script>
+
+</body>
+</html>
